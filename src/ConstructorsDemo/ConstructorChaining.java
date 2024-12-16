@@ -12,11 +12,9 @@ public class ConstructorChaining {
 }
 
 class Employees {
-
 	String name;
 	int age;
 	String dept;
-
 	// Constructor 1
 	Employees(String name, int age, String dept) {
 		this.name = name;// This keywords refers to the current class instance/global variable
