@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.Scanner;
 
+import AccessModifiers.DefaultDemo;
+
 public class ArraysDemo {
 	
 	public static void main(String[] args) {
@@ -49,5 +51,8 @@ public class ArraysDemo {
 			product = product*x;//0+2=2,2+7=9,9+12=21,21+6=27
 		}
 		System.out.println(product);
+		
+//		DefaultDemo Demo= new DefaultDemo();
+		
 	}	
 }
