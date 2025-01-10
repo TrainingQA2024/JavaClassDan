@@ -40,16 +40,29 @@ public class MethodOverloading {
 		System.out.println("I am online deposit");
 	}
 	
+	public void deposit(CreditCard cc) {
+		cc.payment();
+	}
 	public static void main(String[] args) {
 		
-//		MethodOverloading ob = new MethodOverloading();
+		MethodOverloading ob = new MethodOverloading();
 //		ob.deposit(4545454,345.00);
-		MethodOverloading.deposit(4545);
-		int x= MethodOverloading.name;
+//		MethodOverloading.deposit(4545);
+//		int x= MethodOverloading.name;
+
+		CreditCard cc = new CreditCard();
+		ob.deposit(cc);
+		
 	}
 	
 	public void deposit(int chequeNum,double amount) {
 	//code
 		System.out.println("I am different siquence of check deposit");
+	}
+}
+
+class CreditCard{
+	public void payment() {
+		System.out.println("Payment through credit card");
 	}
 }

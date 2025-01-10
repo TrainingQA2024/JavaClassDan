@@ -1,8 +1,6 @@
 package finalKeyword;
 
-public class FinalKeywordDemo {
-	
-	
+public class FinalKeywordDemo {			
 	/*
 	 Final keyword is a modifier in java. It applies on
 	 1. variable
@@ -13,10 +11,9 @@ public class FinalKeywordDemo {
 	 
 	 Final Variable - A final variable can not be changed once initialized.
 	 
-	 final double pi - 22/7=3.14
-	 
-	 
-	 * */
+	 final double pi - 22/7=3.14	
+	  	 
+	 */
 	
  final int rollNumber;//int default = 0;
 	
@@ -34,4 +31,13 @@ public class FinalKeywordDemo {
 	}
 
 	//Method - Final
+	
+	
+	/*
+	 final int num=20;
+	 FinalKeywordDemo(int num){
+	 	this.num = num;
+	 }
+	 
+	 * */
 }
