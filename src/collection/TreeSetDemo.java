@@ -37,7 +37,6 @@ public class TreeSetDemo {
 		set.add(41);
 		System.out.println("TreeSet"+set);
 		
-		TreeSet<Integer> set2= new TreeSet<Integer>(set);
 //		System.out.println("Higher: "+set.higher(67));
 //		System.out.println("Lower: "+set.lower(67));
 //		System.out.println("Ceiling: "+set.ceiling(67));
@@ -75,7 +74,6 @@ public class TreeSetDemo {
 		System.out.println(names.first());
 		System.out.println(names.last());
 		
-*/
-		
+*/		
 	}
 }
